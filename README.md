@@ -1,4 +1,4 @@
-# Qt Custom Window Library
+# Qt Blaze
 
 A modern Qt library for creating frameless windows with rounded corners and draggable title bars. Perfect for creating sleek desktop applications with a custom look and feel.
 
