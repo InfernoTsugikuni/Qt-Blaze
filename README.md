@@ -19,7 +19,7 @@ A modern Qt library for creating frameless windows with rounded corners and drag
 
 ### 1. Include the Header
 ```cpp
-#include "CustomWindow.h"
+#include "QtBlaze.h"
 ```
 
 ### 2. Create Your Window Class
@@ -164,7 +164,7 @@ minimalConfig.borderRadius = 4;
 ## Installation
 
 ### Method 1: Copy Files
-1. Copy `CustomWindow.h` to your project
+1. Copy `QtBlaze.h` to your project
 2. Include it in your source files
 3. Make sure to include the `.moc` file for Q_OBJECT classes
 
