@@ -1,5 +1,5 @@
 #include <QApplication>
-#include "CustomWindow.h"
+#include "QtBlaze.h"
 
 class MyWindow : public CustomWindowBase {
     Q_OBJECT
