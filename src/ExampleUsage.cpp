@@ -43,11 +43,14 @@ int main(int argc, char *argv[]) {
     config.width = 800; // Window width
     config.height = 600; // Window height
     config.borderRadius = 25; // Window border radius
+    config.borderWidth = 1; // Window border width
     config.backgroundColor = QColor("#1e1e1e"); // Window background color
     config.borderColor = QColor("#444"); // Window border color
     config.windowTitle = "My Custom App"; // Window title for the custom title bar
     config.titleTextColor = QColor("#00ff00"); // Window title color for the custom title bar
     config.titleBarColor = QColor("#333"); // Window title bar background color
+    config.titleFontSize = "16px"; // Window title size
+    config.titleBarHeight = 30; // Window title bar height
     
     // Optional but reccomended - add custom button icons with your path, THEY MUST BE 18x18
     config.minimizeIcon = "assets/Minimize.png";
